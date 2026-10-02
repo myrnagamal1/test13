@@ -1173,7 +1173,7 @@ const ACCOUNT_VALIDATION_ENABLED = false;
 const ROOMS_ENABLED = false;
 const RESOURCES_ENABLED = false;
 
-const PHONE_REGEX = new RegExp('06[0-9]{8}|\+2126[0-9]{8}');
+const PHONE_REGEX = /06[0-9]{8}|\+2126[0-9]{8}/;
 const PHONE_HINT  = 'Format: 06XXXXXXXX or +2126XXXXXXXX';
 
 const REFRESH_INTERVAL = 60000; // 60 seconds
